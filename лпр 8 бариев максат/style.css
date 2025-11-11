@@ -1,0 +1,91 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #00ad4e;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #6ef396;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 30%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #00ad48;
+  color: white;
+  margin-top: 20px;
+}
+
+a {
+  color: #00ad3a;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .gallery img {
+    width: 100%;
+  }
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+}
